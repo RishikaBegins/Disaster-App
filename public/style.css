@@ -1,0 +1,17 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+#map {
+    height: 400px;
+    width: 90%;
+    margin: auto;
+}
+
+#alertBox {
+    background: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}

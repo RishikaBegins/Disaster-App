@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SafeRoute — Disaster Preparedness</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Leaflet Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            text-align: center;
+            background: #f4f6f8;
+        }
+
+        h2 {
+            margin: 10px;
+        }
+
+        #alertBox {
+            padding: 12px;
+            background: red;
+            color: white;
+            font-weight: bold;
+        }
+
+        #map {
+            height: 70vh;
+            width: 95%;
+            margin: 10px auto;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 12px 20px;
+            margin: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            background: #e63946;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #c1121f;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>🚨 SafeRoute — Disaster Preparedness</h2>
+
+<div id="alertBox">Checking disaster status...</div>
+
+<div id="map"></div>
+
+<button onclick="sendSOS()">SEND SOS</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>

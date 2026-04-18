@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Community Hall Shelter",
+    "latitude": 28.6139,
+    "longitude": 77.2090,
+    "type": "Relief Camp"
+  },
+  {
+    "id": 2,
+    "name": "City Hospital",
+    "latitude": 28.6145,
+    "longitude": 77.2085,
+    "type": "Hospital"
+  }
+]
